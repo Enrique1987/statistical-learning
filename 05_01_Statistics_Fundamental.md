@@ -31,3 +31,9 @@ The more data that we have, the more confidence we can have in the accuracy of t
 
 One of the main goals in statistics is quantifying how muchs confidence we can hae in pupulation estimates 
 so we calculated **p-values** and **confidence intervals** to quantify the confidence in the estimates parameters.  
+
+
+#### Hypothesis Testing and The null Hypothesis.
+
+
+![Hypothesis Testing](img/03_Hypothesis_Testing.png)
