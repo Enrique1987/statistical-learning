@@ -37,3 +37,23 @@ so we calculated **p-values** and **confidence intervals** to quantify the confi
 
 
 ![Hypothesis Testing](img/03_Hypothesis_Testing.png)
+
+
+Null Hypothesis: The hypothesis that there is not difference between two things.
+
+
+#### Alternative Hypothesis  
+
+- Use only to reject or fail to reject the null or primary hypothesis.  
+- Normally is just simply the oposite to the null Hypothesis. 
+
+When we only have two gorups of data, the Alternative Hypothesis is super obious because its is just the opposit of the **Null Hypothesis**.  
+When we have 3 or more groups we have options for the Alterntive Hypothesis and dependen of which one we use in the **Statistical Test** we can end up making a different decision about the Null.
+
+
+
+#### Statistical Test Needs
+
+1) Data.  
+2) Null Hypothesis.  
+3) Alternative Hypothesis.
