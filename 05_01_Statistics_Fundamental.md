@@ -73,3 +73,6 @@ then oly 5% of those experiments wold result in the wrong decision.
 
 
 **p-values** helps us decide if we should reject the **Null Hypothesis** or not.
+
+
+#### How to calculate p-values
