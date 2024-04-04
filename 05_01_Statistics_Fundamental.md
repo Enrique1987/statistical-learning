@@ -70,9 +70,21 @@ Imagine we are testing two drugs A, and B. We want to see if they are different.
 the more confidente we have that Drug A and Drug B are different (the more confident that the experiment is statistical relevant).  
 In practice, a commonly used threshold is **0.05**. It means that if there is no difference between **Drug A** and **Drug B**, and if we did this exact same experiment a bunch of times,
 then oly 5% of those experiments wold result in the wrong decision.
-
+**Typicallly we only reject a hypothesis if the p-value is less than 0.05**
 
 **p-values** helps us decide if we should reject the **Null Hypothesis** or not.
 
 
 #### How to calculate p-values
+
+1) The probability random change would result in the observation.  
+2) The probability of observing something else that is equally rare.  
+3) The probability of observing something rares or more extreme.  
+
+
+Example: Special coin!!
+
+**Hypothesis**: "My coin is super special because it landed on Heads twice ina row!!!"
+
+**Null Hypothesis**: "Even though I got 2 heads in a row, my coin is no different from a normal coin."
+
