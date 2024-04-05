@@ -84,7 +84,20 @@ then oly 5% of those experiments wold result in the wrong decision.
 
 Example: Special coin!!
 
-**Hypothesis**: "My coin is super special because it landed on Heads twice ina row!!!"
+"My coin is super special because it landed on Heads twice in a row!!!"
 
-**Null Hypothesis**: "Even though I got 2 heads in a row, my coin is no different from a normal coin."
+**Null Hypothesis (H0)**: "Even though I got 2 heads in a row, my coin is no different from a normal coin."  --> Remember null Hypothesis is always **No effect** or **No Different**
+
+**Alternative Hypothesis (H1)**: I have a special coin that always landed in Heads.
+
+![Hypothesis Testing](img/06_calculating_p_values_1.PNG)
+
+
+p-value = 0.5 
+
+since 0.05 > 0.05 we fail to reject the null hypothesis.
+
+p-values in distributions.
+
+![Hypothesis Testing](img/07_calculating_p_values_2.PNG)
 
