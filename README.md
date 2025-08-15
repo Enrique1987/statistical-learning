@@ -9,7 +9,8 @@ Books contained in this repository (buy books - Invest in knowledge and support 
 
  - Data Science Bookcamp: You can buy the book [[here](https://www.manning.com/books/data-science-bookcamp)]
  - Statistics Fundamentals: The 80-20 you should know about statistics [[here](05_01_Statistics_Fundamental.md)]
- 
+
+```mermaid
 graph TD
     M[Mathematics]:::root
 
@@ -58,3 +59,4 @@ graph TD
     classDef root fill:#ffd700,stroke:#333,stroke-width:2px,font-weight:bold;
     classDef branch fill:#fff8dc,stroke:#333,stroke-width:1px;
     class M root;
+```
