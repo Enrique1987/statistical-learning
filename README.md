@@ -11,49 +11,49 @@ Books contained in this repository (buy books - Invest in knowledge and support 
  - Statistics Fundamentals: The 80-20 you should know about statistics [[here](05_01_Statistics_Fundamental.md)]
 
 ```mermaid
-graph TD
-    M[Mathematics]:::root
+flowchart TD
+    M["Mathematics"]:::root
 
     %% Main branches
-    M --> C[ Calculus & Analysis ]
-    M --> A[ Algebra ]
-    M --> D[ Discrete Mathematics ]
-    M --> G[ Geometry & Topology ]
-    M --> P[ Probability & Statistics ]
-    M --> E[ Specialized Fields ]
+    M --> C["Calculus & Analysis"]
+    M --> A["Algebra"]
+    M --> D["Discrete Mathematics"]
+    M --> G["Geometry & Topology"]
+    M --> P["Probability & Statistics"]
+    M --> E["Specialized Fields"]
 
     %% Sub-branches: Calculus & Analysis
-    C --> CR[Real / Complex Analysis]
-    C --> CF[Functional Analysis]
-    C --> ED[Differential Equations]
-    C --> CN[Numerical Calculus]
+    C --> CR["Real / Complex Analysis"]
+    C --> CF["Functional Analysis"]
+    C --> ED["Differential Equations"]
+    C --> CN["Numerical Calculus"]
 
     %% Sub-branches: Algebra
-    A --> AL[Advanced Linear Algebra]
-    A --> AA[Abstract Algebra<br>(Groups, Rings, Fields)]
-    A --> AR[Representation Theory]
+    A --> AL["Advanced Linear Algebra"]
+    A --> AA["Abstract Algebra\n(Groups, Rings, Fields)"]
+    A --> AR["Representation Theory"]
 
     %% Sub-branches: Discrete Mathematics
-    D --> TG[Graph Theory]
-    D --> COM[Combinatorics]
-    D --> CRI[Cryptography]
-    D --> AUT[Automata Theory]
+    D --> TG["Graph Theory"]
+    D --> COM["Combinatorics"]
+    D --> CRI["Cryptography"]
+    D --> AUT["Automata Theory"]
 
     %% Sub-branches: Geometry & Topology
-    G --> GD[Differential Geometry]
-    G --> GT[Topology]
-    G --> GA[Algebraic Geometry]
+    G --> GD["Differential Geometry"]
+    G --> GT["Topology"]
+    G --> GA["Algebraic Geometry"]
 
     %% Sub-branches: Probability & Statistics
-    P --> TP[Probability Theory]
-    P --> EM[Mathematical Statistics]
-    P --> ML[Machine Learning]
-    P --> PR[Stochastic Processes]
+    P --> TP["Probability Theory"]
+    P --> EM["Mathematical Statistics"]
+    P --> ML["Machine Learning"]
+    P --> PR["Stochastic Processes"]
 
     %% Sub-branches: Specialized Fields
-    E --> TN[Number Theory]
-    E --> IO[Operations Research]
-    E --> FM[Mathematical Finance]
+    E --> TN["Number Theory"]
+    E --> IO["Operations Research"]
+    E --> FM["Mathematical Finance"]
 
     %% Styles
     classDef root fill:#ffd700,stroke:#333,stroke-width:2px,font-weight:bold;
